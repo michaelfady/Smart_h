@@ -1,0 +1,4 @@
+* First of all I made a DIO Module to initialize the pins and decide whether they are low voltage or high voltage and whether they are input or output
+* Secondly, I made a USART module to recieve the data from the bluetooth
+* Thirdly, I made a SPI module to transmit data from the first ECU to the second ECU As the first one is the master and the second one is the slave
+* Then, depending on the recieved data we can light LED1 or LED2 or both or neither
